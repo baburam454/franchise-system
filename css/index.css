@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+   
+  }
+
+  .container {
+    padding: 8px 25px;
+    background-color: black;
+
+  }
+  
+  .container .category {
+    display: flex;
+
+  }
+
+  .election_items {
+    
+    width: 95vw;
+    display:block;
+    padding-left:auto;
+    padding-right:auto;
+   
+   
+  }
+
+  .card{
+    float:left;
+  }
+
+  .election_item{
+  
+    margin:5px;
+    background-color: #e9e9e9;;
+    border-radius: 8px;
+    overflow: hidden;
+    height:400px;
+    
+  }
+
+  .election_item:hover{
+  
+  margin:5px;
+  background-color: rgb(39, 38, 38);
+  transition: 1s;
+
+  
+}
+
+
+
+
+
+  .election_items .election_item img {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+  }
+  
+  .election_items .election_item img:hover {
+    width: 110%;
+    transition: 2s;
+ 
+  }
+
+  .election_items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+
+  .card-title-bio{
+    text-align: center;
+  }
+
+
+ 
+  .election_items a{
+    text-decoration: none;
+    color:black;
+  } 
+
+  .election_items a:hover{
+    transition: 0.5s;
+    color:rgb(253, 250, 250);
+  } 
+
+  .font{
+    font-family:cursive; 
+  }
+
+#title{
+    font-size: 22px;
+}
+
